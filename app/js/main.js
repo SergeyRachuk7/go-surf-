@@ -30,4 +30,11 @@ $('.header__slider').slick({
    focusOnSelect: true
  });
 
+$('.travel__slider').slick({ 
+   infinite: true,
+   fade: true,
+   prevArrow: '<img class="slider-arrows slider_arrows__left" src="img/arrow-left.svg" alt="">',
+   nextArrow: '<img class="slider-arrows slider_arrows__right" src="img/arrow-right.svg" alt="">', 
+});
+
 });
