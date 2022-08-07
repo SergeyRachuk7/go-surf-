@@ -143,7 +143,9 @@ $('.holder__slider, .shop__slider').slick({
 
       $('.menu-btn').on('click', function(){
         $('.menu').toggleClass('active');  
-      }); 
+      });        
+
+     new WOW().init(); 
 }); 
 
 

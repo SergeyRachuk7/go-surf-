@@ -12,7 +12,9 @@ body{
   font-size: 16px; 
   background-color: #171919; 
   color: #fff; 
-  text-transform: uppercase;
+  text-transform: uppercase;  
+  min-width: 320px; 
+  overflow-x: hidden;
 } 
 
 a{
@@ -69,14 +71,17 @@ li{
 }
 
 .title{
-  span{ 
+  div{ 
     font-size: 200px;  
     color: rgba(#fff, .02); 
     font-weight: 800;
     position: relative; 
     transform: translateX(-50px); 
     display: inline-block;
-  } 
+  }  
+  span{
+     display: inline-block;
+  }
   h3{
     position: absolute; 
     top: 0; 
